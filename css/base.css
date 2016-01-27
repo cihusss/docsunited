@@ -1,0 +1,53 @@
+body { font-family: 'Libre Baskerville', serif; }
+
+/*navbar*/
+
+header { background: #a0a0a0; min-height: 80px; }
+
+/*padding*/
+
+.pad-md { padding: 1em; }
+.pad-lg { padding: 3em; }
+
+/*floats*/
+
+.float-right { float: right; } 
+
+/*block*/
+
+.center-block { min-height: 20px; text-align: center; }
+.bb-block { min-height: 400px; }
+
+/*buttons*/
+
+.button { display: inline-block; padding: 15px 25px; background: #666; color: white; text-decoration: none; }
+.link { color: black; text-decoration: none; }
+
+/*bullets*/
+
+ul { padding-left: 15px; }
+
+/*colors*/
+
+.grey-dk { background-color: #e1e1e1; }
+.grey-md { background-color: #e8e8e8; }
+.grey-lt { background-color: #f2f2f2; }
+
+/*bb backgrounds*/
+
+.bb-bg { background-size: cover; background-position: center center; }
+.bb-home01 { background-image: url(../img/bb-home01.jpg); }
+.bb-home02 { background-image: url(../img/bb-home02.jpg); }
+
+/*top icon*/
+
+.top { position: fixed; bottom: 20px; right: 20px; cursor: pointer; color: #666; }
+
+@media (max-width: 680px) {
+
+	.bb { min-height: 320px; }
+	.float-right { float: none; }
+	.button { width: 100%; }
+	.top { display: none; }
+
+} 
