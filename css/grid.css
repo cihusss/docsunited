@@ -16,7 +16,7 @@ a img { border: 0; outline: none; }
 
 [class*='col-'] { }
 .col-flex-column { display: flex; flex-direction: column; justify-content: center; }
-.col-flex-row { display: flex; flex-direction: row; justify-content: flex-end; align-items: center; }
+.col-flex-row { display: flex; flex-direction: row; justify-content: center; align-items: center; }
 
 .col-1-1, .col-2-2, .col-3-3, .col-4-4, .col-5-5 { width: 100%; }
 .col-1-2 { width: 50%; }
