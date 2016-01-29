@@ -28,7 +28,7 @@ header .row { min-height: 100px; }
 /*buttons*/
 
 .button { display: inline-block; padding: 15px 25px; color: white; text-decoration: none; }
-.link { color: black; text-decoration: none; }
+.link { color: #2594ba; text-decoration: none; font-weight: bold; }
 
 /*bullets*/
 
@@ -42,7 +42,8 @@ ul li { padding: 4px 0 4px 0; }
 .bg-grey-lt { background-color: #f2f2f2; }
 
 .bg-blue-vivid { background-color: #2594ba; }
-.bg-blue-vivid-lt { background-color: #EFF6FF; }
+.bg-blue-vivid-lt { background-color: #DBE3EC; }
+.bg-blue-vivid-ex-lt { background-color: #EAF1F9; }
 
 .bg-green-dk { background-color: #439474; }
 .bg-green-lt { background-color: #c3dcd2; }
@@ -54,8 +55,12 @@ ul li { padding: 4px 0 4px 0; }
 /*bb backgrounds*/
 
 .bb-bg { background-size: cover; background-position: center center; }
+.bb-logo-left { background-image: url(../img/bb-logo-left.png); }
+.bb-logo-right { background-image: url(../img/bb-logo-right.png); }
 .bb-home01 { background-image: url(../img/bb-home01.jpg); }
 .bb-home02 { background-image: url(../img/bb-home02.jpg); }
+.bb-home03 { background-image: url(../img/bb-home03.jpg); }
+.bb-home04 { background-image: url(../img/bb-home04.jpg); }
 
 /*images*/
 
@@ -67,7 +72,7 @@ ul li { padding: 4px 0 4px 0; }
 
 /*disclaimer*/
 
-p.disclaimer { font-size: 0.8em; padding: 30px; text-align: center; }
+p.disclaimer { font-size: 0.8em; padding: 30px; margin: 0; text-align: center; }
 
 /*navbar media query*/
 
