@@ -2,7 +2,11 @@ body { font-family: 'Libre Baskerville', serif; }
 
 /*navbar*/
 
-header { background: #a0a0a0; min-height: 80px; }
+header { background: #a0a0a0; }
+.navbar a { padding: 10px; }
+.navbar .col-flex-row { padding-right: 30px; }
+.logo { width: 280px; padding: 20px; }
+.fa-bars { display: none; }
 
 /*padding*/
 
@@ -40,15 +44,32 @@ ul li { padding: 4px 0 4px 0; }
 .bb-home01 { background-image: url(../img/bb-home01.jpg); }
 .bb-home02 { background-image: url(../img/bb-home02.jpg); }
 
+/*images*/
+
+.responsive-img { display: block; width: 100%; }
+
 /*top icon*/
 
 .top-arrow { position: fixed; bottom: 20px; right: 20px; cursor: pointer; color: #666; }
+
+/*navbar media query*/
+
+@media (max-width: 800px) {
+
+	.navbar .col-1-5 { width: 100%; }
+	.navbar .col-4-5 { display: none; }
+	.navbar:after { content: ""; display: table; clear: both; }
+	.logo { width: 220px; }
+	.fa-bars { display: block; position: absolute; top: 32px; right: 20px; }
+} 
+
+
+/*smarphone media query*/
 
 @media (max-width: 680px) {
 
 	.float-right { float: none; }
 	.button { width: 100%; }
-	.top-arrow, .hide-mobile { display: none; }
+	.hide-mobile { display: none; }
 	.min-height { min-height: 360px; }
-
 } 
