@@ -98,5 +98,7 @@ p.disclaimer { font-size: 0.8em; padding: 30px; margin: 0; text-align: center; }
 	.float-right { float: none; }
 	.button { width: 100%; }
 	.hide-mobile { display: none; }
-	.min-height { min-height: 360px; }
+	.min-height { min-height: 280px; }
+	.pad-lg { padding: 2em; }
+	.center-block-lg { min-height: 100px; }
 } 
