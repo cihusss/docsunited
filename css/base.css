@@ -22,7 +22,8 @@ header .row { min-height: 100px; }
 
 /*block*/
 
-.center-block { min-height: 100px; text-align: center; }
+.center-block-sm { min-height: 100px; text-align: center; }
+.center-block-lg { min-height: 150px; text-align: center; }
 .min-height { min-height: 500px; }
 
 /*buttons*/
