@@ -28,8 +28,10 @@ header .row { min-height: 100px; }
 
 /*buttons*/
 
-.button { display: inline-block; padding: 15px 25px; color: white; text-decoration: none; }
-.link { color: #2594ba; text-decoration: none; font-weight: bold; }
+.button { display: inline-block; padding: 15px 25px; color: white; text-decoration: none; background-color: #2594ba; transition: background-color .3s; }
+.button:hover { background-color: #ff8d00; }
+.link { color: #2594ba; text-decoration: none; font-weight: bold; transition: color .3s; align-self: flex-start; }
+.link:hover { color: #ff8d00; }
 
 /*bullets*/
 
@@ -69,7 +71,8 @@ ul li { padding: 4px 0 4px 0; }
 
 /*top icon*/
 
-.top-arrow { position: fixed; bottom: 20px; right: 20px; cursor: pointer; color: #666; }
+.top-arrow { display: none; position: fixed; bottom: 20px; right: 20px; cursor: pointer; color: #2594ba; transition: color .3s; }
+.top-arrow:hover { color: #ff8d00; }
 
 /*disclaimer*/
 
