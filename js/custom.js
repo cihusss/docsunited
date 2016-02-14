@@ -16,4 +16,9 @@ $(document).ready(function() {
 		},
 	});
 
+	$('.fa-bars').click(function() {
+		$('.mobile-links').toggleClass('open');
+		$(this).toggleClass('fg-orange');
+	});
+
 });

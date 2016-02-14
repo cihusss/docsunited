@@ -11,6 +11,13 @@ header .row { height: 100px; }
 .logo { padding: 10px 20px; }
 .fa-bars { display: none; }
 
+
+/*mobile links*/
+
+.mobile-links { height: 0; text-align: center; padding: 0; transition: all .3s; }
+.mobile-links a { display: block; margin: 10px; font-size: 1.2em; }
+.open { height: 200px; padding: 10px; }
+
 /*padding*/
 
 .pad-md { padding: 1em; }
@@ -55,6 +62,7 @@ ul li { padding: 4px 0 4px 0; }
 /*fg colors*/
 
 .fg-white { color: white; }
+.fg-orange { color: #ff8d00; }
 
 /*bb backgrounds*/
 
@@ -90,7 +98,6 @@ p.disclaimer { font-size: 0.8em; padding: 30px; margin: 0; text-align: center; }
 	.logo { width: 220px; }
 	.fa-bars { display: block; position: absolute; top: 19px; right: 20px; }
 } 
-
 
 /*smarphone media query*/
 
