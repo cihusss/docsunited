@@ -41,22 +41,24 @@
 		<div class="col-1-2 min-height bg-grey-md pad-lg bb-bg bb-facilities02"></div>
 		<div class="col-1-2 min-height pad-lg col-flex-column bb-bg bb-logo-right">
 			<form action="">
-				<input type="text" name="name" placeholder="Name of Facility">
-				<input type="text" placeholder="Primary Contact(s)">
-				<input type="text" placeholder="City">
-				<input type="text" placeholder="State">
-				<input type="text" placeholder="Email">
-				<input type="text" placeholder="Telephone">
+				<input type="text" name="name" placeholder="Name of Facility" required>
+				<input type="text" placeholder="Primary Contact(s)" required>
+				<input type="text" placeholder="City" required>
+				<input type="text" placeholder="State" required>
+				<input type="text" placeholder="Email" required>
+				<input type="text" placeholder="Telephone" required>
 				<input type="text" placeholder="Preferred contact method">
 				<input type="text" placeholder="Preferred contact times">
 				<input type="text" placeholder="Position(s)/Specialty Needed">
+				<a href="#" class="button hide-mobile">Submit</a>
+				<span class="disclaimer"><span class="fg-blue-vivid">blue border</span> = required</span>
 			</form>
 		</div>
 	</div>
 
 	<!-- Button Section -->
 
-	<div class="row">
+	<div class="row hide-desktop">
 		<div class="col-1-1 center-block-lg pad-md bg-blue-vivid-lt col-flex-row">
 			<a href="#" class="button">Submit</a>
 		</div>

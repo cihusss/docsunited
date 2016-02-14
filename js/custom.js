@@ -23,12 +23,25 @@ $(document).ready(function() {
 	});
 
 	(function highlightNav() {
-		var pageName = window.location.pathname;
-		var pageNameClean = pageName.slice(1, pageName.length -4);
+		console.log(window.location.pathname);
+		if(window.location.pathname == '/' || window.location.domain == 'teomilicevic.com') {
+			$('.home').addClass('bg-grey-md');
+			console.log('addclass')
+		}
+		var pageName = window.location.pathname.split('/');
+		if(window.location.host == 'docsunited.dev:8888') {
+			var pageNameClean = pageName[1].slice(0, pageName.length -6);
+			console.log(pageName[1]);
+		}
+		else {
+			var pageNameClean = pageName[2].slice(0, pageName.length -7);
+			console.log(pageName[2]);
+		}
 		$('.link').each(function(){
 			var grabName = $(this).attr('data-link-name');
-			if(grabName == pageNameClean) {
+			if(grabName == pageNameClean || '') {
 				$(this).addClass('bg-grey-md');
+				console.log('booooyaa');
 			}
 			else { }
 		});
