@@ -10,13 +10,14 @@ header .row { height: 100px; }
 .navbar .col-4-5 { justify-content: flex-end; }
 .logo { padding: 10px 20px; }
 .fa-bars { display: none; }
+.highlight { background: yellow; }
 
 
 /*mobile links*/
 
 .mobile-links { height: 0; text-align: center; padding: 0; transition: all .3s; }
-.mobile-links a { display: block; margin: 10px; font-size: 1.2em; }
-.open { height: 200px; padding: 10px; }
+.mobile-links a { display: block; padding: 10px; font-size: 1.2em; }
+.open { height: 220px; }
 
 /*padding*/
 
@@ -43,7 +44,7 @@ header .row { height: 100px; }
 
 /*bullets*/
 
-ul { padding-left: 15px; }
+ul { padding-left: 40px; }
 ul li { padding: 4px 0 4px 0; }
 
 /*bg colors*/
@@ -74,6 +75,9 @@ ul li { padding: 4px 0 4px 0; }
 .bb-home03 { background-image: url(../img/bb-home03.jpg); }
 .bb-home04 { background-image: url(../img/bb-home04.jpg); }
 
+.bb-facilities01 { background-image: url(../img/bb-facilities01.jpg); }
+.bb-facilities02 { background-image: url(../img/bb-facilities02.jpg); }
+
 /*images*/
 
 .responsive-img { display: block; width: 100%; }
@@ -86,6 +90,10 @@ ul li { padding: 4px 0 4px 0; }
 /*disclaimer*/
 
 p.disclaimer { font-size: 0.8em; padding: 30px; margin: 0; text-align: center; }
+
+/*forms*/
+
+form input { width: 100%; min-height: 40px; margin: 5px; padding: 5px; font-size: 1em; font-family: 'Libre Baskerville', serif; border: 1px solid #d7d7d7; }
 
 /*navbar media query*/
 
