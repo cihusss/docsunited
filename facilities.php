@@ -51,7 +51,7 @@
 				<input type="text" placeholder="Preferred contact times">
 				<input type="text" placeholder="Position(s)/Specialty Needed">
 				<a href="#" class="button hide-mobile">Submit</a>
-				<span class="disclaimer"><span class="fg-blue-vivid">blue border</span> = required</span>
+				<!-- <span class="disclaimer"><span class="fg-blue-vivid">blue border</span> = required</span> -->
 			</form>
 		</div>
 	</div>

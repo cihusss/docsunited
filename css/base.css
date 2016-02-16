@@ -96,9 +96,9 @@ span.disclaimer { font-size: 0.8em; display: block; margin-top: 10px; }
 
 /*forms*/
 
-form input { width: 100%; margin: 5px 0 5px 0; padding: 10px; font-size: .9em; font-family: 'Libre Baskerville', serif; border: 1px solid #d7d7d7; }
+form input { width: 100%; margin: 5px 0 5px 0; padding: 10px; font-size: .9em; font-family: 'Libre Baskerville', serif; border: 1px solid #d7d7d7; -webkit-appearance: none; -webkit-border-radius: 0px; }
 form input:last-of-type { margin-bottom: 10px; }
-form input:required { border-color: #AAD4E2; }
+/* form input:required { border-color: #AAD4E2; } */
 
 /*navbar media query*/
 
@@ -123,4 +123,5 @@ form input:required { border-color: #AAD4E2; }
 	.min-height { min-height: 280px; }
 	.pad-lg { padding: 2em; }
 	.center-block-lg { min-height: 100px; }
+	.top-arrow { display: none !important; }
 } 
