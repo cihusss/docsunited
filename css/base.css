@@ -1,4 +1,7 @@
 body { font-family: 'Libre Baskerville', serif; }
+h2 { font-size: 1.8em; line-height: 1.6em; }
+p { line-height: 1.8em; }
+li { line-height: 1.4em; }
 .hide-desktop { display: none; }
 
 /*navbar*/
@@ -45,7 +48,7 @@ header .row { height: 100px; }
 
 /*bullets*/
 
-ul { padding-left: 40px; }
+ul { padding-left: 25px; }
 ul li { padding: 4px 0 4px 0; }
 
 /*bg colors*/
