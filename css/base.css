@@ -40,6 +40,7 @@ header .row { height: 100px; }
 
 /*buttons*/
 
+button.button { font-size: .9em; font-family: 'Libre Baskerville', serif; border: none; cursor: pointer; }
 .button { display: inline-block; padding: 15px 25px; color: white; text-decoration: none; background-color: #2594ba; transition: background-color .3s; }
 .button:hover { background-color: #ff8d00; }
 .link { color: #2594ba; text-decoration: none; font-weight: bold; transition: color .3s; }
@@ -103,6 +104,9 @@ form input { width: 100%; margin: 5px 0 5px 0; padding: 10px; font-size: .9em; f
 form input:last-of-type { margin-bottom: 10px; }
 /* form input:required { border-color: #AAD4E2; } */
 
+/*thanks*/
+.thanks { display: none; }
+
 /*navbar media query*/
 
 @media (max-width: 800px) {
@@ -119,7 +123,7 @@ form input:last-of-type { margin-bottom: 10px; }
 
 @media (max-width: 680px) {
 	
-	h2, p, li { line-height: 1.2em; }
+	h2, p, li { line-height: 1.3em; }
 	.float-right { float: none; }
 	.button { width: 100%; }
 	.hide-mobile { display: none; }

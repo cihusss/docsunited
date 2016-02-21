@@ -40,29 +40,33 @@
 	<div class="row">
 		<div class="col-1-2 min-height bg-grey-md pad-lg bb-bg bb-facilities02"></div>
 		<div class="col-1-2 min-height pad-lg col-flex-column bb-bg bb-logo-right">
-			<form action="">
-				<input type="text" name="name" placeholder="Name of Facility" required>
-				<input type="text" placeholder="Primary Contact(s)" required>
-				<input type="text" placeholder="City" required>
-				<input type="text" placeholder="State" required>
-				<input type="text" placeholder="Email" required>
-				<input type="text" placeholder="Telephone" required>
-				<input type="text" placeholder="Preferred contact method">
-				<input type="text" placeholder="Preferred contact times">
-				<input type="text" placeholder="Position(s)/Specialty Needed">
-				<a href="#" class="button hide-mobile">Submit</a>
+			<form action="" id="form">
+				<input type="text" name="name" id="name" placeholder="Name of Facility" required>
+				<input type="text" name="contact" id="contact" placeholder="Primary Contact(s)" required>
+				<input type="text" name="city" id="city" placeholder="City" required>
+				<input type="text" name="state" id="state" placeholder="State" required>
+				<input type="text" name="email" id="email" placeholder="Email" required>
+				<input type="text" name="telephone" id="telephone" placeholder="Telephone" required>
+				<input type="text" name="contact_method" id="contact_method" placeholder="Preferred contact method">
+				<input type="text" name="contact_times" id="contact_times" placeholder="Preferred contact times">
+				<input type="text" name="position" id="postion" placeholder="Position(s)/Specialty Needed">
+				<button class="button" id="submit">Submit</button>
 				<!-- <span class="disclaimer"><span class="fg-blue-vivid">blue border</span> = required</span> -->
 			</form>
+			<div class="thanks">
+				<h2>Thank You</h2>
+				<p>We appreciate your interest and will aim to get back to you as soon as possible.</p>
+			</div>
 		</div>
 	</div>
 
 	<!-- Button Section -->
 
-	<div class="row hide-desktop">
+	<!-- <div class="row hide-desktop">
 		<div class="col-1-1 center-block-lg pad-md bg-blue-vivid-lt col-flex-row">
 			<a href="#" class="button">Submit</a>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Top Arrow -->
 
