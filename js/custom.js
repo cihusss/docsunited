@@ -55,8 +55,22 @@ $(document).ready(function() {
 		
 		e.preventDefault();
 
+		var url;
+
+		if(window.location.pathname == '/facilities.php') {
+			url = '/sendMailFacilities.php'
+		}
+		if(window.location.pathname == '/providers.php') {
+			url = '/sendMailProviders.php'
+		}
+		if(window.location.pathname == '/contact.php') {
+			url = '/sendMailcontact.php'
+		}
+
+		var url = 
+
 		$.ajax({
-	        url: '/sendMailFacilities.php',
+	        url: url,
 	        dataType: 'text',
 	        type: 'post',
 	        contentType: 'application/x-www-form-urlencoded',
