@@ -118,7 +118,8 @@ form input:last-of-type { margin-bottom: 10px; }
 /*smarphone media query*/
 
 @media (max-width: 680px) {
-
+	
+	h2, p, li { line-height: 1.2em; }
 	.float-right { float: none; }
 	.button { width: 100%; }
 	.hide-mobile { display: none; }
