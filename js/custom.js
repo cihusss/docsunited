@@ -51,11 +51,12 @@ $(document).ready(function() {
 
 	// form processing
 
-	function processForm(e){
+	function processForm(e) {
 		
 		e.preventDefault();
 
 		var url;
+		var inputArr = [];
 
 		if(window.location.pathname == '/facilities.php') {
 			url = '/sendMailFacilities.php'
@@ -67,21 +68,41 @@ $(document).ready(function() {
 			url = '/sendMailcontact.php'
 		}
 
-		var url = 
+		$('input[required]').each(function() {
 
-		$.ajax({
-	        url: url,
-	        dataType: 'text',
-	        type: 'post',
-	        contentType: 'application/x-www-form-urlencoded',
-	        data: $(this).serialize(),
-	        success: function( data, textStatus, jQxhr ) {
-	            showThankYou();
-	        },
-	        error: function( jqXhr, textStatus, errorThrown ) {
-	            console.log( errorThrown );
-	        }
-	    });
+		    if ($(this).val() == '') {
+
+		        alert('Required field should not be blank.');
+		        $(this).focus();
+		        inputArr.push('empty');
+
+		        e.preventDefault();
+		        return false;
+		    }
+		    else {
+		    	inputArr.push('filled');
+		    }
+		});
+
+		if($.inArray('empty', inputArr) !== -1) {
+	    	console.log('one or more empty');
+	    }
+	    else {
+	    	console.log(inputArr);
+		    $.ajax({
+		        url: url,
+		        dataType: 'text',
+		        type: 'post',
+		        contentType: 'application/x-www-form-urlencoded',
+		        data: $(this).serialize(),
+		        success: function( data, textStatus, jQxhr ) {
+		            showThankYou();
+		        },
+		        error: function( jqXhr, textStatus, errorThrown ) {
+		            console.log( errorThrown );
+		        }
+		    });
+	    }
 	}
 
 	function showThankYou() {
