@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 	(function highlightNav() {
 		// console.log(window.location.pathname);
-		if(window.location.pathname == '/' || window.location.pathname == '/du/') {
+		if(window.location.pathname == '/' || window.location.pathname == '/staging/') {
 			$('.home').addClass('bg-grey-md');
 			// console.log('addclass');
 		}
