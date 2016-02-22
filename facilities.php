@@ -53,6 +53,9 @@
 				<h2>Thank You for Submiting Your Facility Application</h2>
 				<p>We appreciate your interest and will aim to get back to you as soon as possible.</p>
 			</div>
+			<div class="spinner">
+				<img src="img/spinner.gif">
+			</div>
 		</div>
 	</div>
 

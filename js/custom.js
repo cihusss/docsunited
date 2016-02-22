@@ -91,6 +91,7 @@ $(document).ready(function() {
 	    else {
 	    	console.log(inputArr);
 	    	console.log(url);
+	    	$('.spinner').fadeIn(200);
 		    $.ajax({
 		        url: url,
 		        // url: 'sendMailFacilities.php',
@@ -102,6 +103,7 @@ $(document).ready(function() {
 	            headers: { "cache-control": "no-cache" },
 		        success: function( data, textStatus, jQxhr ) {
 		        	console.log('data sent');
+		            $('.spinner').fadeOut(200);
 		            showThankYou();
 		        },
 		        error: function( jqXhr, textStatus, errorThrown ) {
