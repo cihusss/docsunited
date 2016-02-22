@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head data-page-name="home">
 <?php include 'head.php'; ?>
 </head>
 <body>

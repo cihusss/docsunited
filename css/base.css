@@ -100,8 +100,8 @@ ul li { padding: 4px 0 4px 0; }
 
 /*disclaimer*/
 
-p.disclaimer { font-size: 0.8em; padding: 30px; margin: 0; text-align: center; }
-span.disclaimer { font-size: 0.8em; display: block; margin-top: 10px; }
+.form-disc { display: none; font-size: 0.8em; padding: 10px; margin: 0; color: #ff8d00; text-align: center; }
+
 
 /*forms*/
 

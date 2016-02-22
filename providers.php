@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head data-page-name="providers">
 <?php include 'head.php'; ?>
 </head>
 <body>
@@ -54,7 +54,7 @@
 				<input type="text" name="how" id="how" placeholder="How did you hear about us?">
 				<textarea name="comments" id="comments" placeholder="Comments"></textarea>
 				<button class="button" id="submit">Submit</button>
-				<!-- <span class="disclaimer"><span class="fg-blue-vivid">blue border</span> = required</span> -->
+				<span class="form-disc">Please fill out all mandatory fields.</span>
 			</form>
 			<div class="thanks">
 				<h2>Thank You for Submiting Your Physician Application</h2>

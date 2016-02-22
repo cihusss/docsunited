@@ -58,21 +58,22 @@ $(document).ready(function() {
 		var url;
 		var inputArr = [];
 
-		if(window.location.pathname == '/facilities.php') {
-			url = '/sendMailFacilities.php'
+		if($('head').attr('data-page-name') == 'facilities') {
+			url = 'sendMailFacilities.php'
 		}
-		if(window.location.pathname == '/providers.php') {
-			url = '/sendMailProviders.php'
+		if($('head').attr('data-page-name') == 'providers') {
+			url = 'sendMailProviders.php'
 		}
-		if(window.location.pathname == '/contact.php') {
-			url = '/sendMailcontact.php'
+		if($('head').attr('data-page-name') == 'contact') {
+			url = 'sendMailcontact.php'
 		}
 
 		$('input[required]').each(function() {
 
 		    if ($(this).val() == '') {
 
-		        alert('Required field should not be blank.');
+		        // alert('Required field should not be blank.');
+		        $('.form-disc').show();
 		        $(this).focus();
 		        inputArr.push('empty');
 
@@ -89,16 +90,22 @@ $(document).ready(function() {
 	    }
 	    else {
 	    	console.log(inputArr);
+	    	console.log(url);
 		    $.ajax({
 		        url: url,
+		        // url: 'sendMailFacilities.php',
 		        dataType: 'text',
 		        type: 'post',
 		        contentType: 'application/x-www-form-urlencoded',
 		        data: $(this).serialize(),
+		        cache: false,
+	            headers: { "cache-control": "no-cache" },
 		        success: function( data, textStatus, jQxhr ) {
+		        	console.log('data sent');
 		            showThankYou();
 		        },
 		        error: function( jqXhr, textStatus, errorThrown ) {
+		            console.log('error');
 		            console.log( errorThrown );
 		        }
 		    });

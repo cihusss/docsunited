@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head data-page-name="facilities">
 <?php include 'head.php'; ?>
 </head>
 <body>
@@ -47,7 +47,7 @@
 				<input type="text" name="contact_times" id="contact_times" placeholder="Preferred contact times">
 				<input type="text" name="position" id="postion" placeholder="Position(s)/Specialty Needed">
 				<button class="button" id="submit">Submit</button>
-				<!-- <span class="disclaimer"><span class="fg-blue-vivid">blue border</span> = required</span> -->
+				<span class="form-disc">Please fill out all mandatory fields.</span>
 			</form>
 			<div class="thanks">
 				<h2>Thank You for Submiting Your Facility Application</h2>
