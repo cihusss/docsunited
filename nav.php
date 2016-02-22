@@ -16,7 +16,7 @@
 
 <!-- Mob Links -->
 
-<div class="row mobile-links bg-grey-lt">
+<div class="row mobile-links bg-grey-lt hide-desktop">
 	<div class="col-1-1">
 		<a href="index.php" class="link home" data-link-name="index">Home</a>
 		<a href="facilities.php" class="link" data-link-name="facilities">Facilities</a>
