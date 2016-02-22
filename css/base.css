@@ -95,7 +95,7 @@ ul li { padding: 4px 0 4px 0; }
 
 /*top icon*/
 
-.top-arrow { display: none; position: fixed; bottom: 32px; right: 35px; cursor: pointer; color: #2594ba; transition: color .3s; }
+.top-arrow { display: none; position: fixed; bottom: 20px; right: 20px; cursor: pointer; color: #2594ba; transition: color .3s; }
 .top-arrow:hover { color: #ff8d00; }
 
 /*disclaimer*/
