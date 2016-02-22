@@ -53,8 +53,8 @@
 				<input type="text" name="additional_location2" id="additional_location2" placeholder="(additional location – optional)">
 				<input type="text" name="how" id="how" placeholder="How did you hear about us?">
 				<textarea name="comments" id="comments" placeholder="Comments"></textarea>
+				<div class="form-disc">Please fill out all mandatory fields.</div>
 				<button class="button" id="submit">Submit</button>
-				<span class="form-disc">Please fill out all mandatory fields.</span>
 			</form>
 			<div class="thanks">
 				<h2>Thank You for Submiting Your Physician Application</h2>

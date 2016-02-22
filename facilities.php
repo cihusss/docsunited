@@ -46,8 +46,8 @@
 				<input type="text" name="contact_method" id="contact_method" placeholder="Preferred contact method">
 				<input type="text" name="contact_times" id="contact_times" placeholder="Preferred contact times">
 				<input type="text" name="position" id="postion" placeholder="Position(s)/Specialty Needed">
+				<div class="form-disc">Please fill out all mandatory fields.</div>
 				<button class="button" id="submit">Submit</button>
-				<span class="form-disc">Please fill out all mandatory fields.</span>
 			</form>
 			<div class="thanks">
 				<h2>Thank You for Submiting Your Facility Application</h2>

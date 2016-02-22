@@ -42,7 +42,7 @@ header .row { height: 100px; }
 
 /*buttons*/
 
-button.button { font-size: .9em; font-family: 'Libre Baskerville', serif; border: none; cursor: pointer; }
+button.button { font-size: 1em; font-family: 'Libre Baskerville', serif; border: none; cursor: pointer; }
 .button { display: inline-block; padding: 15px 25px; color: white; text-decoration: none; background-color: #2594ba; transition: background-color .3s; }
 .button:hover { background-color: #ff8d00; }
 .link { color: #2594ba; text-decoration: none; font-weight: bold; transition: color .3s; }
@@ -100,12 +100,13 @@ ul li { padding: 4px 0 4px 0; }
 
 /*disclaimer*/
 
-.form-disc { display: none; font-size: 0.8em; padding: 10px; margin: 0; color: #ff8d00; text-align: center; }
+p.disc { font-size: 0.9em; text-align: center; }
+.form-disc { display: none; font-size: 1em; padding: 0 0 10px 0; margin: 0; color: #ff8d00; width: 100%; }
 
 
 /*forms*/
 
-form input, form textarea { width: 100%; margin: 5px 0 5px 0; padding: 10px; font-size: .9em; font-family: 'Libre Baskerville', serif; border: 1px solid #d7d7d7; -webkit-appearance: none; -webkit-border-radius: 0px; }
+form input, form textarea { width: 100%; margin: 5px 0 5px 0; padding: 10px; font-size: 1em; font-family: 'Libre Baskerville', serif; border: 1px solid #d7d7d7; -webkit-appearance: none; -webkit-border-radius: 0px; }
 form input:last-of-type, form textarea:last-of-type { margin-bottom: 10px; }
 input[type="text"][required] {
   background-image: radial-gradient(#ff8d00 15%, transparent 16%), radial-gradient(#ff8d00 15%, transparent 16%);
