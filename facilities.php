@@ -33,7 +33,7 @@
 
 	<!-- Content Section -->
 
-	<div class="row">
+	<div class="row" id="form">
 		<div class="col-1-2 min-height bg-grey-md pad-lg bb-bg bb-facilities02"></div>
 		<div class="col-1-2 min-height pad-lg col-flex-column bb-bg bb-logo-right">
 			<form action="" id="form">
