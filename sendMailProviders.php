@@ -44,20 +44,14 @@ $mail->SMTPAuth = true;
 $mail->SMTPDebug = 2;
 
 $mail->Host = 'mail.docsunited.net';    
-$mail->Username = 'teo@docsunited.net';
+$mail->Username = 'info@docsunited.net';
 $mail->Password = 'ELtPjPy2';
 $mail->SMTPSecure = 'STARTTLS';
 $mail->Port = '587';
 
-// $mail->Host = 'smtp.gmail.com';    
-// $mail->Username = 'cihusss@gmail.com';
-// $mail->Password = 'jedigovna11';
-// $mail->SMTPSecure = 'ssl';
-// $mail->Port = '465';
-
-$mail->From = 'teo@docsunited.net';
+$mail->From = 'info@docsunited.net';
 $mail->FromName = 'DocsUnited Mailer';
-$mail->addAddress('teo@docsunited.net');
+$mail->addAddress('info@docsunited.net');
 
 $mail->isHTML(true);
 
