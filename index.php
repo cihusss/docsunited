@@ -21,7 +21,7 @@
 			<p>Docs United aims to pair top-quality, highly-skilled medical professionals with facilities and clinics in need of temporary or long-term medical staffing.</p>
 			<p>A physician-managed company, Docs United is trusted by fellow physicians and facilities alike, with our team knowing what matters most from both perspectives. Often staffing within the same facilities in which they practice, Docs United uses a thorough screening process to provide the perfect fit at just the right time.</p>
 		</div>
-		<div class="col-1-2 min-height bg-grey-md pad-lg bb-bg bb-home01 mob-order1"></div>
+		<div class="col-1-2 min-height bg-grey-md pad-lg bb-bg bb-home01 mob-order1 col-flex-column"></div>
 	</div>
 
 	<!-- Button Section -->
