@@ -18,10 +18,10 @@
 	<div class="row" id="top-trigger">
 		<div class="col-1-2 pad-lg mob-order2 col-flex-column bb-bg bb-logo-left">
 			<h2>Contact Us</h2>
-			<p>Docs United, LLC
-			P.O. Box 460786<br>
-			Houston, TX 77056<br>
-			Phone: 1-844-DOCS-UTD or 1-844-362-7883<br>
+			<p>Docs United, LLC<br>
+			P.O. Box 460786,<br>
+			Houston, TX 77056</p>
+			<p>Phone: 1-844-DOCS-UTD (362-7883)<br>
 			Fax: 713-485-4785<br>
 			Email: <a href="mailto:info@docsunited.net" class="link">info@docsunited.net</a></p>
 		</div>
