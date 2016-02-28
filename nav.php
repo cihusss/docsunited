@@ -1,7 +1,7 @@
 <header>
 	<div class="row navbar">
-		<div class="col-1-5 col-flex-row">
-			<img src="img/logo.png" class="logo">
+		<div class="col-1-5 logo">
+			<img src="img/logo.png">
 			<i class="fa fa-bars fa-2x"></i>
 		</div>
 		<div class="col-4-5 col-flex-row">
