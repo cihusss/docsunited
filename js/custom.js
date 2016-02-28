@@ -59,13 +59,13 @@ $(document).ready(function() {
 		var inputArr = [];
 
 		if($('head').attr('data-page-name') == 'facilities') {
-			url = 'sendMailFacilities.php'
+			url = 'sendMailFacilities.php';
 		}
 		if($('head').attr('data-page-name') == 'providers') {
-			url = 'sendMailProviders.php'
+			url = 'sendMailProviders.php';
 		}
 		if($('head').attr('data-page-name') == 'contact') {
-			url = 'sendMailcontact.php'
+			url = 'sendMailContact.php';
 		}
 
 		$('input[required]').each(function() {

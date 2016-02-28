@@ -28,10 +28,10 @@
 
 	<div class="row">
 		<div class="col-1-2 center-block-lg pad-md bg-blue-vivid-lt col-flex-row">
-			<a href="facilities.php" class="button">Facility Application</a>
+			<a href="facilities.php#form-section" class="button">Facility Application</a>
 		</div>
 		<div class="col-1-2 center-block-lg pad-md bg-blue-vivid-ex-lt col-flex-row">
-			<a href="providers.php" class="button">Physician Application</a>
+			<a href="providers.php#form-section" class="button">Physician Application</a>
 		</div>
 	</div>
 

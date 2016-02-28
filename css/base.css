@@ -10,20 +10,13 @@ li { line-height: 1.4em; }
 header { background: white; }
 header .row { height: 100px; }
 .navbar .link { padding: 10px; display: inline; }
-.navbar .col-1-5 { justify-content: flex-start; } 
+.navbar .col-1-5 { -webkit-justify-content: flex-start; justify-content: flex-start; } 
 .navbar .col-4-5 { padding-right: 30px; }
-.navbar .col-4-5 { justify-content: flex-end; }
-.logo { padding: 10px 20px; }
+.navbar .col-4-5 { -webkit-justify-content: flex-end; justify-content: flex-end; }
+.logo {  }
+.logo img { display: block; width: 238px; margin: 18px 20px; }
 .fa-bars { display: none; }
 .highlight { background: yellow; }
-
-
-/*mobile links*/
-
-.mobile-links { height: 0; text-align: center; padding: 0; transition: all .3s; }
-.mobile-links a { display: block; padding: 15px; font-size: 1.2em; }
-.open { height: 290px; }
-.fg-white a { color: white; }
 
 /*padding*/
 
@@ -89,6 +82,8 @@ ul li { padding: 4px 0 4px 0; }
 .bb-providers01 { background-image: url(../img/bb-providers01.jpg); }
 .bb-providers02 { background-image: url(../img/bb-providers02.jpg); }
 
+.bb-contact01 { background-image: url(../img/bb-contact01.jpg); }
+
 /*images*/
 
 .responsive-img { display: block; width: 100%; }
@@ -102,17 +97,17 @@ ul li { padding: 4px 0 4px 0; }
 
 p.disc { font-size: 0.9em; text-align: center; }
 .form-disc { display: none; font-size: 1em; padding: 0 0 10px 0; margin: 0; color: #ff8d00; width: 100%; }
-
+.fg-white a { color: white; }
 
 /*forms*/
 
 form input, form textarea { width: 100%; margin: 5px 0 5px 0; padding: 10px; font-size: 1em; font-family: 'Libre Baskerville', serif; border: 1px solid #d7d7d7; -webkit-appearance: none; -webkit-border-radius: 0px; }
 form input:last-of-type, form textarea:last-of-type { margin-bottom: 10px; }
 input[type="text"][required] {
-  background-image: radial-gradient(#ff8d00 15%, transparent 16%), radial-gradient(#ff8d00 15%, transparent 16%);
-  background-size: 1.4em 1.4em;
-  background-position: top right;
-  background-repeat: no-repeat
+	background-image: radial-gradient(#ff8d00 15%, transparent 16%), radial-gradient(#ff8d00 15%, transparent 16%);
+	background-size: 1.4em 1.4em;
+	background-position: top right;
+	background-repeat: no-repeat
 }
 form textarea { min-height: 100px; }
 
@@ -124,11 +119,17 @@ form textarea { min-height: 100px; }
 
 @media (max-width: 800px) {
 
-	header .row { height: auto; }
+	.hide-desktop { display: block; }
+	header .row { height: 70px; }
 	.navbar .col-1-5 { width: 100%; }
 	.navbar .col-4-5 { display: none; }
 	.navbar:after { content: ""; display: table; clear: both; }
-	.logo { width: 220px; }
+
+	/*mobile links*/
+	.mobile-links { overflow: hidden; height: 0; text-align: center; padding: 0; transition: all .3s; }
+	.mobile-links a { display: block; padding: 15px; font-size: 1.2em; }
+	.open { height: 220px; }
+	.logo img { width: 180px; margin: 10px 20px; }
 	.fa-bars { display: block; position: absolute; top: 19px; right: 20px; }
 } 
 
@@ -140,9 +141,9 @@ form textarea { min-height: 100px; }
 	.float-right { float: none; }
 	.button { width: 100%; }
 	.hide-mobile { display: none; }
-	.hide-desktop { display: block; }
 	.min-height { min-height: 280px; }
 	.pad-lg { padding: 2em; }
 	.center-block-lg { min-height: 100px; }
 	.top-arrow { display: none !important; }
+	.logo img { margin: 10px 10px; }
 } 
