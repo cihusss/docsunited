@@ -147,4 +147,5 @@ form textarea { min-height: 100px; }
 	.center-block-lg { min-height: 100px; }
 	.top-arrow { display: none !important; }
 	.logo img { margin: 10px 10px; }
+	.bb-short { min-height: 124px; }
 } 

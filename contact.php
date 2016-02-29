@@ -25,7 +25,7 @@
 			Fax: 713-485-4785<br>
 			Email: <a href="mailto:info@docsunited.net" class="link">info@docsunited.net</a></p>
 		</div>
-		<div class="col-1-2 min-height bg-grey-md pad-lg bb-bg bb-contact01 mob-order1"></div>
+		<div class="col-1-2 min-height bg-grey-md pad-lg bb-bg bb-contact01 mob-order1 bb-short"></div>
 	</div>
 
 	<!-- For Your Convenience -->
