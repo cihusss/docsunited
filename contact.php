@@ -51,7 +51,7 @@
 				<button class="button" id="submit">Submit</button>
 			</form>
 			<div class="thanks">
-				<h2>Thank you for submiting your message</h2>
+				<h2>Thank you for submitting your message</h2>
 				<p>We appreciate your interest and will reach out with a response as soon as possible.</p>
 			</div>
 			<div class="spinner">
