@@ -22,14 +22,14 @@ $mail->SMTPAuth = true;
 $mail->SMTPDebug = 2;
 
 $mail->Host = 'mail.docsunited.net';    
-$mail->Username = 'teo@docsunited.net';
+$mail->Username = 'info@docsunited.com';
 $mail->Password = 'ELtPjPy2';
 $mail->SMTPSecure = 'STARTTLS';
 $mail->Port = '587';
 
-$mail->From = 'teo@docsunited.net';
+$mail->From = 'info@docsunited.com';
 $mail->FromName = 'DocsUnited Mailer';
-$mail->addAddress('teo@docsunited.net');
+$mail->addAddress('info@docsunited.com');
 
 $mail->isHTML(true);
 
