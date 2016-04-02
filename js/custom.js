@@ -31,16 +31,18 @@ $(document).ready(function() {
 			// console.log('addclass');
 		}
 		var pageName = window.location.pathname.split('/');
+		// console.log(pageName);
 		if(window.location.host == 'docsunited.dev:8888') {
 			var pageNameClean = pageName[1].slice(0, pageName.length -6);
 			// console.log(pageName[1]);
 		}
 		else {
-			var pageNameClean = pageName[2].slice(0, pageName.length -7);
+			// var pageNameClean = pageName[2].slice(0, pageName.length -7);
+			var pageNameClean = window.location.pathname.slice(1);
 			// console.log(pageName[2]);
 		}
 		$('.link').each(function(){
-			var grabName = $(this).attr('data-link-name');
+			var grabName = $(this).attr('data-link-name') + '.php';
 			if(grabName == pageNameClean || '') {
 				$(this).addClass('bg-grey-md');
 				// console.log('booooyaa');

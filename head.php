@@ -7,6 +7,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="js/jquery.scrollTo.min.js"></script>
 	<script src="js/waypoints.js"></script>
