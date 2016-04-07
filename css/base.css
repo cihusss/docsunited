@@ -116,6 +116,8 @@ form textarea { min-height: 100px; }
 .thanks { display: none; }
 .spinner { display: none; position: fixed; padding: 20px; background: white; left: 50%; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); z-index: 100; border-radius: 20px; border: 10px solid #d7d7d7; }
 
+.umsg { font-size: 1.2em; padding: 40px; color: white; width: 30%; margin: 100px auto; text-align: center; }
+
 /*navbar media query*/
 
 @media (max-width: 800px) {

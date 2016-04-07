@@ -5,8 +5,9 @@ $(document).ready(function() {
 		// alert('flexbox supported');
 	}
 	else {
-		$('body').hide();
-		alert('please upgrade your browser');
+		$('body').empty();
+		$('body').append('<div class="umsg bg-blue-vivid">You are using an outdated browser. Please upgrade.</div>')
+		// alert('please upgrade your browser');
 	}
 
 	$('.top-arrow').click(function(event) {
