@@ -2,10 +2,11 @@ $(document).ready(function() {
 
 	if (Modernizr.flexbox) {
 		// supported
-		alert('flexbox supported')
+		// alert('flexbox supported');
 	}
 	else {
-		console.log('upgrade your browser');
+		$('body').hide();
+		alert('please upgrade your browser');
 	}
 
 	$('.top-arrow').click(function(event) {
