@@ -12,6 +12,7 @@
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="js/jquery.scrollTo.min.js"></script>
 	<script src="js/waypoints.js"></script>
+	<script src="js/modernizr-flexbox.js"></script>
 	<script src="js/custom.js"></script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
+	if (Modernizr.flexbox) {
+		// supported
+		alert('flexbox supported')
+	}
+	else {
+		console.log('upgrade your browser');
+	}
+
 	$('.top-arrow').click(function(event) {
 		$(window).scrollTo('html', 1000);
 	});
