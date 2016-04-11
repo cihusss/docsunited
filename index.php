@@ -57,7 +57,7 @@
 	<div class="row">
 		<div class="col-1-2 min-height pad-lg mob-order2 col-flex-column bb-bg bb-logo-left">
 			<h2>Physicians Seeking a New Opportunity Without a Long-Term Commitment?</h2>
-			<p>We offer you a chance at a fresh start and we take care of all the fine print, so you can focus on the task at hand. Professional liability, travel costs and lodging are provided at no expense to you.</p>
+			<p>We offer you the chance at a fresh start and we take care of all the fine print, so you can focus on the task at hand. Professional liability, travel costs and lodging are provided at no expense to you.</p>
 			<a href="facilities.php#form-section" class="link link-flex">Apply Now <i class="fa fa-caret-right"></i></a>
 		</div>
 		<div class="col-1-2 min-height bg-grey-md pad-lg bb-bg bb-home03 mob-order1"></div>
