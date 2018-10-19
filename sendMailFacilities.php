@@ -5,8 +5,7 @@ $contact = $_REQUEST['contact'];
 $city = $_REQUEST['city'];
 $state = $_REQUEST['state'];
 $telephone = $_REQUEST['telephone'];
-$contact_method = $_REQUEST['contact_method'];
-$contact_times = $_REQUEST['contact_times'];
+$drop = $_REQUEST['drop'];
 $position = $_REQUEST['position'];
 $body =
 	'Name of Facility: ' . $name . '<br>' . 
@@ -14,8 +13,7 @@ $body =
 	'City: ' . $city . '<br>' .
 	'State: ' . $state . '<br>' .
 	'Telephone: ' . $telephone . '<br>' .
-	'Preferred contact method: ' . $contact_method . '<br>' .
-	'Preferred contact times: ' . $contact_times . '<br>' .
+	'Drop: ' . $drop . '<br>' .
 	'Position: ' . $position . '<br>'
 ;
 

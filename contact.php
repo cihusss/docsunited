@@ -7,6 +7,7 @@
 
 <div class="grid">
 
+	<?php include 'sticky.php'; ?>
 	<?php include 'nav.php'; ?>
 
 	<!-- Copy Line -->
@@ -21,7 +22,7 @@
 			<p>Docs United, LLC<br>
 			P.O. Box 460786,<br>
 			Houston, TX 77056</p>
-			<p>Phone: 1-844-DOCS-UTD (362-7883)<br>
+			<p>Phone: 832-294-8254<br>
 			Fax: 713-485-4785<br>
 			Email: <a href="mailto:info@docsunited.net" class="link">info@docsunited.net</a></p>
 		</div>

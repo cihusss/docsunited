@@ -7,6 +7,7 @@
 
 <div class="grid">
 
+	<?php include 'sticky.php'; ?>
 	<?php include 'nav.php'; ?>
 
 	<!-- Copy Line -->
@@ -43,8 +44,19 @@
 				<input type="text" name="state" id="state" placeholder="State" required>
 				<input type="text" name="email" id="email" placeholder="Email" required>
 				<input type="text" name="telephone" id="telephone" placeholder="Telephone" required>
-				<input type="text" name="contact_method" id="contact_method" placeholder="Preferred contact method">
-				<input type="text" name="contact_times" id="contact_times" placeholder="Preferred contact times">
+				<select name="drop" required class="select-drop">
+					<option value="">Select Your Specialty</option>
+					<option value="Hospitalist">Hospitalist</option>
+					<option value="Emergency Medicine">Emergency Medicine</option>
+					<option value="Primary Care (FP/IM)">Primary Care (FP/IM)</option>
+					<option value="Surgery">Surgery</option>
+					<option value="Cardiology">Cardiology</option>
+					<option value="Nephrology">Nephrology</option>
+					<option value="Neurology">Neurology</option>
+					<option value="Neurosurgery">Neurosurgery</option>
+					<option value="Psychiatry">Psychiatry</option>
+					<option value="Pulmonology/Intensivist">Pulmonology/Intensivist</option>
+				</select>
 				<input type="text" name="position" id="postion" placeholder="Position(s)/Specialty Needed">
 				<div class="form-disc">Please fill out all mandatory fields.</div>
 				<button class="button" id="submit">Submit</button>

@@ -7,6 +7,7 @@
 
 <div class="grid">
 
+	<?php include 'sticky.php'; ?>
 	<?php include 'nav.php'; ?>
 
 	<!-- Copy Line -->
@@ -44,10 +45,20 @@
 				<input type="text" name="city" id="city" placeholder="City">
 				<input type="text" name="state" id="state" placeholder="State" required>
 				<input type="text" name="zip" id="zip" placeholder="Zip Code">
-				<input type="text" name="mobile" id="postion" placeholder="Mobile Phone">
-				<input type="text" name="phone" id="" placeholder="Home Phone">
-				<input type="text" name="preferred_contact_method" id="preferred_contact" placeholder="Preferred contact method">
-				<input type="text" name="preferred_contact_times" id="preferred_contact_times" placeholder="Preferred contact times">
+				<input type="text" name="phone" id="phone" placeholder="Phone">
+				<select name="drop" required class="select-drop">
+					<option value="">Select Your Specialty</option>
+					<option value="Hospitalist">Hospitalist</option>
+					<option value="Emergency Medicine">Emergency Medicine</option>
+					<option value="Primary Care (FP/IM)">Primary Care (FP/IM)</option>
+					<option value="Surgery">Surgery</option>
+					<option value="Cardiology">Cardiology</option>
+					<option value="Nephrology">Nephrology</option>
+					<option value="Neurology">Neurology</option>
+					<option value="Neurosurgery">Neurosurgery</option>
+					<option value="Psychiatry">Psychiatry</option>
+					<option value="Pulmonology/Intensivist">Pulmonology/Intensivist</option>
+				</select>
 				<input type="text" name="locations_of_interest" id="locations_of_interest" placeholder="Locations of interest" required>
 				<input type="text" name="additional_location1" id="additional_location1" placeholder="(additional location – optional)">
 				<input type="text" name="additional_location2" id="additional_location2" placeholder="(additional location – optional)">

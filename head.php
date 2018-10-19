@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="js/jquery.scrollTo.min.js"></script>
 	<script src="js/waypoints.js"></script>

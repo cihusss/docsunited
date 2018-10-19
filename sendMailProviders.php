@@ -7,10 +7,8 @@ $address = $_REQUEST['address'];
 $city = $_REQUEST['city'];
 $state = $_REQUEST['state'];
 $zip = $_REQUEST['zip'];
-$mobile = $_REQUEST['mobile'];
 $phone = $_REQUEST['phone'];
-$preferred_contact_method = $_REQUEST['preferred_contact_method'];
-$preferred_contact_times = $_REQUEST['preferred_contact_times'];
+$drop = $_REQUEST['drop'];
 $locations_of_interest = $_REQUEST['locations_of_interest'];
 $additional_location1 = $_REQUEST['additional_location1'];
 $additional_location2 = $_REQUEST['additional_location2'];
@@ -24,10 +22,8 @@ $body =
 	'City: ' . $city . '<br>' . 
 	'State: ' . $state . '<br>' . 
 	'Zip Code: ' . $zip . '<br>' . 
-	'Mobile Phone: ' . $mobile . '<br>' . 
-	'Home Phone: ' . $phone . '<br>' . 
-	'Preferred Contact Method: ' . $preferred_contact_method . '<br>' . 
-	'Preferred Contact Times: ' . $preferred_contact_times . '<br>' . 
+	'Phone: ' . $phone . '<br>' . 
+	'Drop: ' . $drop . '<br>' . 
 	'Locations of Interest: ' . $locations_of_interest . '<br>' . 
 	'Additional Location 1: ' . $additional_location1 . '<br>' . 
 	'Additional Location 2: ' . $additional_location2 . '<br>' . 
